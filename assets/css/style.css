@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   .mobile-nav-toggle{
     display: block;
     color: white;
-    background-color: white;
+  
   }
 
   .navbar ul {
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: #fff;
+  background: var(--them-background-color);
   transition: 0.3s;
   z-index: 999;
 }
@@ -177,17 +177,17 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: var(--them-background-color);
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #24325d;
+  color: white;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: var(--text-color);
+  color: white;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
